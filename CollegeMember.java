@@ -31,7 +31,7 @@ class faculty extends CollegeMember{
 }
 class CollegeManagementSystem{
     public static void main(String[] args){
-        student s=new student("Divya",101,"computer science");
+        student s=new student("Harini",101,"computer science");
         faculty f=new faculty("Lucky",201,"java programming");
         s.displayDetails();
         System.out.println();
