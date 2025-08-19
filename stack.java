@@ -38,17 +38,18 @@ public class Stack {
             stack.push(20);
             stack.push(30);
 
-            System.out.println(stack.pop());   // 30
-            System.out.println(stack.peek());  // 20
+            System.out.println(stack.pop());   
+            System.out.println(stack.peek());  
             stack.push(40);
             stack.push(50);
             stack.push(60);
-            stack.push(70);  // Will show "Stack Overflow"
+            stack.push(70);  
 
             while (!stack.isEmpty()) {
                 System.out.println(stack.pop());
             }
 
-            System.out.println(stack.pop());  // Stack Underflow
+            System.out.println(stack.pop());  
         }
     }
+
